@@ -1,5 +1,5 @@
  
-from flask import Flask
+from flask import Flask # type: ignore
 from app.routes.colaborador import colaborador_bp
 from app.routes.gestor import gestor_bp
 

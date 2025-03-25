@@ -1,5 +1,5 @@
  
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify # type: ignore
 
 colaborador_bp = Blueprint('colaborador', __name__)
 
